@@ -1,3 +1,35 @@
-h1 {
-    color:red;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rebeccapurple;
+    padding: 3em;
+}
+
+header > h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 3em;
+}
+
+.square {
+    width: 29%;
+    background: green;
+    padding-bottom: 29%;
+    float: left;
+    margin: 2%;
+    border-radius: 7%;
+    transition: background .3s;
+}
+
+.square.winner {
+    background: gold;
+}
+
+.square.loser {
+    background: gray;
 }
